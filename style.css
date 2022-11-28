@@ -1,0 +1,70 @@
+body{
+   background-image:url(car.jpg);
+   background-size:cover;
+   font-family:Gotham SSm;
+}
+@font-face{font-family:Gotham SSm;font-weight:100;font-display:swap;font-style:normal;src:url(https://cdn-design.tesla.com/tds-fonts/x/woff2/GothamSSm-Bold_Web.woff2)}
+header{
+    display: flex;
+    width:1492px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo img{
+    width:150px;
+
+}
+a{
+   margin: 6px;
+   color: black;
+   
+}
+.link{
+   display: flex;
+}
+.link a{
+    
+    text-decoration:none;
+    margin-left: 20px;
+}
+.link-2{
+     display: flex;
+}
+.link-2 a{
+   text-decoration: none;
+   margin:auto  15px ;
+   
+}
+#model{
+    margin-left: 650px;
+    margin-top: 100px;
+}
+#schedule{
+    margin-left: 645px;
+    color: black;
+}
+.footer{
+    margin-top: 500px;
+    margin-left: 470px;
+}
+#customer{
+    padding:10px;
+    background-color: #3e4045;
+    color: white;
+    border-style: none;
+    padding:15px 90px;
+    margin-right: 20px;
+    border-radius:7px;
+}
+#exist{
+    padding:10px;
+    background-color:#eae9e9;
+    color: black;
+    border-style: none;
+    padding:15px 90px;
+    border-radius:7px;
+}
+
+
